@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="header">
       <h1>
-        <Icon icon={locationIcon} /> Stone It (ALM)
+        <Icon icon={locationIcon} /> Stone It
       </h1>
     </header>
   );

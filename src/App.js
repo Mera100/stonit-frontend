@@ -2,6 +2,7 @@ import Map from './components/Map'
 import {useState, useEffect} from 'react'
 import Loader from './components/Loader'
 import Header from './components/Header'
+require('dotenv').config()
 
 function App() {
   const [stonesData, setStonesData] = useState([])

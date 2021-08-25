@@ -29,7 +29,8 @@ const Map = ({ stonesData, center, zoom }) => {
   return (
     <div className="map">
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "AIzaSyCHuzjt0gBQyYtqoDy3Nfhz764La4Y_cHg" }}
+      // todo add google api key in the env.
+        bootstrapURLKeys={{ key: process.env.REACT_APP_API_KEY }}
         defaultCenter={center}
         defaultZoom={zoom}
       >
